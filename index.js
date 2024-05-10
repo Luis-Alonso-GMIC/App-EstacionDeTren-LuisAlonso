@@ -10,6 +10,17 @@ function increment(){
     
 }
 
+function resta() {
+    if (count > 0) {
+        count-- //Esto es como hacer (count = count - 1);
+        countEl.textContent = count;
+    } else {
+
+        alert('No puedes seguir restando, el valor es 0, ESPABILA!!!')
+        
+    }
+} 
+
 function save() {
     
     let countStr = count + " - "
