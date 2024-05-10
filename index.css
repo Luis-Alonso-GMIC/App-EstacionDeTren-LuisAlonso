@@ -29,16 +29,28 @@ body {
     }
     
     #increment-btn {
-    background: darkred;
+    background: rgb(59, 187, 0);
     }
+    #resta-btn {
+        background: rgb(177, 0, 0);
+        }
     
     #save-btn {
-    background: darkgreen;
+    background: rgb(58, 110, 255);
     }
     p{
 
         color: rgb(0, 0, 0);
-
-
+        background-color: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: left;
+        padding: 20px;
+        border-radius: 10px;
+        border: solid;
+        border-color: rgb(58, 110, 255);
     }
+
+    
+
  
